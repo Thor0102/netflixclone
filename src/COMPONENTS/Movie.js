@@ -46,7 +46,7 @@ function Movie(props) {
   
     return ( 
      <div>
-
+      <h1 style={{color: "white"}}>Hello , Omkar</h1>
       <h2 style={{color: "white", fontSize: "30px", fontWeight: "900", marginLeft:"30px"}}>{props.name}</h2>
 
        
