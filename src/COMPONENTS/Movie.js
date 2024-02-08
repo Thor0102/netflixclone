@@ -62,7 +62,7 @@ function Movie(props) {
             <img style={{margin: "10px"}} onClick={function()
             {
               collectTheMovie(i.title)
-            }} height="250px" width="250px" src={"https://image.tmdb.org/t/p/original"+i.poster_path}/>
+            }} height="250px" width="250px" src={"https://image.tmdb.org/t/p/original"+i.poster_path} alt={""}/>
           )
           
           //  <img style={{margin: "10px"}} onClick={function()
